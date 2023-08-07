@@ -24,8 +24,8 @@ app.post("/create_preference", (req, res) => {
       },
     ],
     back_urls: {
-      success: "http://localhost:5173",
-      failure: "http://localhost:5173",
+      success: "https://otalvaro-mp-commerce-nodejs-7fe8012e45af.herokuapp.com",
+      failure: "https://otalvaro-mp-commerce-nodejs-7fe8012e45af.herokuapp.com",
       pending: "",
     },
     auto_return: "approved",
